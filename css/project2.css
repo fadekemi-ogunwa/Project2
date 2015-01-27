@@ -1,0 +1,49 @@
+header {
+        text-align:center;
+        background-size:cover;
+        font-family:tahoma;
+      }
+      a {
+        color: white;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-family:tahoma;
+      }
+      button {
+        color: turquoise;
+      }
+      img {
+        margin: 50px 0px 0px 0px;
+        border: 8px solid turquoise;
+        border-radius: 50%;
+        width:200px;
+        height:200px;
+      }
+      ul {
+        padding: 10px;
+        background: rgba(0,0,0,0.5);
+      }
+      li {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+        background: Black;
+      }
+      article {
+        max-width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: justify;
+      }
+      @media (max-width: 500px) {
+        h1 {
+        font-size: 36px;
+        padding: 5px;
+        }
+        li {
+        padding: 5px;
+        display: block;
+        }
+      }
